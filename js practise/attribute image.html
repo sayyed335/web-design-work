@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>attr demo</title>
+
+  <style>
+
+  img {
+
+    padding: 10px;
+
+  }
+
+  div {
+
+    color: red;
+
+    font-size: 24px;
+
+  }
+
+  </style>
+
+  <script src="jquery-2.1.4.min.js"></script>
+
+</head>
+
+<body>
+
+ 
+
+<img>
+
+<img>
+
+<img>
+
+ 
+
+<div><b>Attribute of Ajax</b></div>
+
+ 
+
+<script>
+
+$( "img" ).attr({
+
+  src: "IMG_2171.JPG",
+
+  title: "jQuery",
+
+  alt: "jQuery Logo"
+
+});
+
+$( "div" ).text( $( "img" ).attr( "alt" ) );
+
+</script>
+
+ 
+
+</body>
+
+</html>
+

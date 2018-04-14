@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0}
+body{font-family: comic sans ms;background-color: #666 }
+.main{width: 710px;margin: 0 auto;background:#454545;}
+.top{overflow: hidden;background:#BBBBBB}
+.logo{margin-top:0px;width: auto;float: left;height:20px  }
+.contact_us{margin-top: 10px;float: right;width: auto;}
+.call_number{float: right;margin:10px;color:red}
+.call_number p{border-bottom: 2px solid #7CFC00}
+.slider{}
+.slider img{margin-top: 2px; height: 200px;width: 700px;padding:5px;background:#000;}
+.menu{background: #008B8B;overflow: hidden;margin-top:px;border: 1px solid}
+.menu ul{list-style: none}
+.menu ul li{float:left}
+.menu ul li a{color: #000;padding: 10px;display: block;text-decoration: none} 
+.menu ul li a:hover{color:#000;background: #fff;list-style: none;text-decoration: none;padding: 10px;display: block}
+.content{overflow: hidden;height: 900px;}
+.content h1{margin-bottom: 10px;color: #fff}
+.content p{margin-bottom: 20px;font-size: 20px;color:#999;line-height: 25px}
+.main_content{width: 450px; float: left}
+.main_content img{height: 153px;width: 450px;padding: 5px;background:#000}
+.text{color:black}
+.side_bar{float: right;width: 230px;margin-left: 20px}
+
+
+.side_bar ul{list-style: none}
+.side_bar ul li{margin-bottom: 10px;border-bottom: 2px solid }
+.side_bar ul li a{color: #fff;padding: 10px;display: block;text-decoration: none}
+.side_bar ul li a:hover{color: black;background: #fff;list-style: none;text-decoration: none;padding: 10px;display: block}
+.footer{margin-bottom: 10px}
+.footer_top{background: #008B8B;overflow: hidden;border: 1px solid;margin:0;padding:0;margin-top:-70px}
+.footer_top ul{list-style: none}
+.footer_top ul li{float: left}
+.footer_top ul li a{color: #fff;padding: 10px;display: block;text-decoration: none}
+.footer_top ul li a:hover{border: .1px solid black;color: black;background: #fff;list-style: none;text-decoration: none;padding: 10px;display: block}
+.footer_bottom{}
+.copy_right{float: left;color: black;margin-top: 5px;margin-left:30px}
+.social_media{}
+.social_media ul{ list-style: none;}
+.social_media ul li{float: right}
+.social_media ul li a{color: black;padding: 10px;display: block;text-decoration: none; }
+.social_media ul li a:hover{color: black;background: #7FFF00;list-style: none;text-decoration: none;padding: 10px;display: block}
+
+
+
+
+
+
+
+/*Responsive code
+.side_bar ul li{margin-bottom: 10px;border-bottom: 2px solid #fff}
+.side_bar{float: right;width: 200px;margin-left: 10px;padding-left: 5px}
+.social_media ul{ list-style: none;border: 1px solid}*/
+
+
+
+

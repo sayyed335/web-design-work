@@ -1,0 +1,61 @@
+* {margin:0;padding:0}
+body {font-family:arial;font-size:14px;line-height:18px;color:#444;}
+a {text-decoration:none;color:#000}
+a:hover {text-decoration:none}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;margin-bottom:15px;}
+img {border:none;max-width:100%}
+input[type=text], textarea {border:1px solid #ddd;padding:5px}
+input[type=submit] {border:none;padding:5px 15px;background:#444;color:#fff;}
+ul, ol {margin:15px;margin-right:0}
+.fix {overflow:hidden}
+.alignleft {float:left;margin-right:10px}
+.alignright {float:right;margin-left:10px}
+.aligncenter {display:block;margin:0 auto}
+.floatleft {float:left}
+.floatright {float:right}
+.column {transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}
+
+.mainmenu {min-height:35px}
+#nav ul {display: none;margin:0;z-index:9999;list-style:none}
+#nav li:hover > ul {display: block;}
+#nav {border-radius: 10px; list-style: none; position: relative; display: inline-table;}
+#nav:after {content: ""; clear: both; display: block;	}
+#nav li {border-bottom: 3px solid #DDDDDD;
+float: left;}
+
+#nav li:hover {border-bottom: 3px solid #DF8259;}
+#nav ul li:hover {border-bottom: 0px solid #DF8259;}
+#nav li:hover a {}
+#nav li a {color: #333333;
+display: block;
+font-size: 16px;
+padding: 8px 15px;
+position: relative;
+text-decoration: none;
+z-index: 99999;}
+#nav li a span { text-transform: lowercase;font-style:normal}
+#nav ul {background: #fff; border-radius: 0px; padding: 0; position: absolute; top: 100%;}
+#nav ul li {float: none; border-bottom: 0px solid #ddd; position: relative;}
+#nav ul li a {color: #666666;
+font-size: 14px;
+min-width: 160px;
+padding: 10px 15px;
+text-transform: none;}	
+#nav ul li a:hover {color:#fff;background:#DF8259}
+#nav ul ul {position: absolute; left: 100%; top:0;}
+
+
+
+.column {margin:0 auto;display:block}
+.header {background: none repeat scroll 0 0 #007BE8;
+border-bottom: 5px solid #DDDDDD;
+border-top: 5px solid #DF8259;
+min-height: 70px;}
+
+.mainmenu {}
+.maincontent {}
+.main {}
+.view {}
+.footer {}
+.copyright {}
+.socialprofiles {}
